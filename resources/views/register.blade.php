@@ -3,8 +3,27 @@
 @section('title', 'Home')
 
 @section('content')
+<style>
+  body{
+    background-color: lightblue;
+    
+  }
+  h3{
+    text-align: center;
+    font-size: 50px;
+    font-family: verdana;
+  }
 
-<h3 class="mt-5 p-5">Registration Farmers</h3>
+  .card-body{
+    padding: 15px;
+    font-family: verdana;
+  }
+
+  .text{
+    font-family: verdana;
+  }
+  </style>
+<h3 class="mt-5 p-5">R E G I S T R A T I O N</h3>
 
 <div class="container">
 
@@ -14,19 +33,19 @@
 <div class="row">
 <div class="col">
 <div class="mb-3">
-    <label for="firstname">First name</label>
+    <label for="firstname">First Name</label>
     <input type="email" class="form-control form-control-sm" name="firsname">
   </div>
 </div>
   <div class="col">
   <div class="mb-3">
-    <label for="middlename" class="form-label">Middle name</label>
+    <label for="middlename" class="form-label">Middle Name</label>
     <input type="text" class="form-control form-control-sm" name="middlename">
   </div>
   </div>
   <div class="col">
   <div class="mb-3">
-    <label for="lastname" class="form-label">Last name</label>
+    <label for="lastname" class="form-label">Last Name</label>
     <input type="text" class="form-control form-control-sm" name="lastname">
   </div>
   </div>
@@ -40,7 +59,7 @@
 </div>
   <div class="col">
   <div class="mb-5">
-    <label for="area" class="form-label">Are</label>
+    <label for="area" class="form-label">Area</label>
     <input type="number" class="form-control form-control-sm" name="area">
   </div>
   </div>
