@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/layout', function () {
-    return view('layout');
+    return view('/layout');
+});
+
+Route::get('/register', function () {
+    return view('/register');
 });
