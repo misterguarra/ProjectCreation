@@ -1,74 +1,73 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration Form</Form></title>
-</head>
-<body>
-    
-<form>
-  <!-- 2 column grid layout with text inputs for the first and last names -->
-  <div class="row mb-4">
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">First name</label>
-      </div>
-    </div>
-    <div class="form-outline">
-        <input type="text" id="form6Example1" class="form-control" />
-        <label class="form-label" for="form6Example1">First name</label>
-      </div>
-    </div>
-    <div class="col">
-      <div class="form-outline">
-        <input type="text" id="form6Example2" class="form-control" />
-        <label class="form-label" for="form6Example2">Last name</label>
-      </div>
-    </div>
-  </div>
+@extends('layout')
 
-  <!-- Text input -->
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example3" class="form-control" />
-    <label class="form-label" for="form6Example3">Company name</label>
-  </div>
+@section('title', 'Home')
 
-  <!-- Text input -->
-  <div class="form-outline mb-4">
-    <input type="text" id="form6Example4" class="form-control" />
-    <label class="form-label" for="form6Example4">Address</label>
-  </div>
+@section('content')
 
-  <!-- Email input -->
-  <div class="form-outline mb-4">
-    <input type="email" id="form6Example5" class="form-control" />
-    <label class="form-label" for="form6Example5">Email</label>
-  </div>
+<h3 class="mt-5 p-5">Registration Farmers</h3>
 
-  <!-- Number input -->
-  <div class="form-outline mb-4">
-    <input type="number" id="form6Example6" class="form-control" />
-    <label class="form-label" for="form6Example6">Phone</label>
-  </div>
+<div class="container">
 
+<<<<<<< HEAD
   <!-- Message input -->
   <div class="form-outline mb-4">
     <textarea class="form-control" id="form6Example7" rows="4"></textarea>
     <label class="form-label" for="form6Example7">Additional Information</label>
+=======
+<div class="card">
+  <div class="card-body">
+  <form>
+<div class="row">
+<div class="col">
+<div class="mb-3">
+    <label for="firstname">First name</label>
+    <input type="email" class="form-control form-control-sm" name="firsname">
+>>>>>>> 263d0d6bbb14d104bee02c4f2aeb79957947c67d
   </div>
-
-  <!-- Checkbox -->
-  <div class="form-check d-flex justify-content-center mb-4">
-    <input class="form-check-input me-2" type="checkbox" value="" id="form6Example8" checked />
-    <label class="form-check-label" for="form6Example8"> Create an account? </label>
+</div>
+  <div class="col">
+  <div class="mb-3">
+    <label for="middlename" class="form-label">Middle name</label>
+    <input type="text" class="form-control form-control-sm" name="middlename">
   </div>
+  </div>
+  <div class="col">
+  <div class="mb-3">
+    <label for="lastname" class="form-label">Last name</label>
+    <input type="text" class="form-control form-control-sm" name="lastname">
+  </div>
+  </div>
+</div>
+<div class="row">
+<div class="col">
+<div class="mb-3">
+    <label for="contact" class="form-label">Contact No.</label>
+    <input type="text" class="form-control form-control-sm" name="contact">
+  </div>
+</div>
+  <div class="col">
+  <div class="mb-5">
+    <label for="area" class="form-label">Are</label>
+    <input type="number" class="form-control form-control-sm" name="area">
+  </div>
+  </div>
+</div>
+<div class="mb-3">
+<select class="form-select form-select-sm" name="crops" aria-label="Default select example">
+  <option selected>Select</option>
+  <option value="sugarcane">Sugarcane</option>
+  <option value="corn">Corn</option>
+  <option value="rice">Rice</option>
+</select>
+</div>
 
-  <!-- Submit button -->
-  <button type="submit" class="btn btn-primary btn-block mb-4">Place order</button>
+  <button type="submit" class="btn btn-primary">Register</button>
 </form>
+  </div>
+</div>
+</div>
 
-</body>
-</html>
+
+@endsection
+
+
