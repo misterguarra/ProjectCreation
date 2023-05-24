@@ -8,12 +8,6 @@
 
 <div class="container">
 
-<<<<<<< HEAD
-  <!-- Message input -->
-  <div class="form-outline mb-4">
-    <textarea class="form-control" id="form6Example7" rows="4"></textarea>
-    <label class="form-label" for="form6Example7">Additional Information</label>
-=======
 <div class="card">
   <div class="card-body">
   <form>
@@ -22,7 +16,6 @@
 <div class="mb-3">
     <label for="firstname">First name</label>
     <input type="email" class="form-control form-control-sm" name="firsname">
->>>>>>> 263d0d6bbb14d104bee02c4f2aeb79957947c67d
   </div>
 </div>
   <div class="col">
