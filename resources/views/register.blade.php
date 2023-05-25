@@ -40,7 +40,7 @@
 </div>
   <div class="col">
   <div class="mb-5">
-    <label for="area" class="form-label">Are</label>
+    <label for="area" class="form-label">Area</label>
     <input type="number" class="form-control form-control-sm" name="area">
   </div>
   </div>
