@@ -27,3 +27,11 @@ Route::get('/register', function () {
 Route::get('/home', function () {
     return view('/home');
 });
+
+Route::get('/farmers-transaction', function () {
+    return view('/farmers-transaction');
+});
+
+Route::get('/farmers-report', function () {
+    return view('/farmers-report');
+});
