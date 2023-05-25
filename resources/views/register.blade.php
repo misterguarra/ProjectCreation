@@ -35,7 +35,7 @@
 <div class="col">
 <div class="mb-3">
     <label for="contact" class="form-label">Contact No.</label>
-    <input type="text" class="form-control form-control-sm" name="contact">
+    <input type="tel" pattern="[0]{1}[0-9]{10}" title="Please enter a valid mobile number" class="form-control form-control-sm" name="contact">
   </div>
 </div>
   <div class="col">
