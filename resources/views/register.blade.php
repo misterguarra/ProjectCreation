@@ -1,6 +1,6 @@
 @extends('layout')
 
-@section('title', 'Home')
+@section('title', 'Register')
 
 @section('content')
 <style>
@@ -22,6 +22,7 @@
   .text{
     font-family: verdana;
   }
+
   </style>
 <h3 class="mt-5 p-5">R E G I S T R A T I O N</h3>
 
